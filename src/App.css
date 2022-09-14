@@ -1,0 +1,18 @@
+/** @format */
+
+:root {
+  --padding: 12px;
+  --max-width: 900px;
+  --border: 1px solid rgb(191, 189, 189);
+}
+.layout_container {
+  border: var(--border);
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0px auto;
+  padding: var(--padding);
+  min-height: 100vh;
+}
+.back_button {
+  background-color: transparent !important;
+} 
